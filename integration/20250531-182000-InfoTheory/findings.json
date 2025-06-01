@@ -1,0 +1,21 @@
+{
+  "agent_id": "20250531-182000-InfoTheory",
+  "phenomenon": "integration",
+  "task_type": "theory",
+  "key_findings": [
+    "Quantum channels, bounded by the Holevo quantity, can offer higher information capacity (e.g., ~0.601 bits for example non-orthogonal states vs. <1 for classical on same states) compared to classical channels using similar resources, especially with non-orthogonal state encoding.",
+    "Von Neumann entropy quantifies information in quantum states (0 for pure, >0 for mixed). Biological processes involving quantum state evolution will see entropy changes reflecting information flow and decoherence (e.g., hypothetical process showed ΔS ≈ 0.80 bits).",
+    "Biological systems likely use principles analogous to quantum error correction (redundancy, repair, decoherence-free subspaces, Zeno effect) to achieve robustness, rather than formal QEC codes.",
+    "Quantum-enhanced sensing (approaching Heisenberg Limit) can theoretically provide significantly higher precision (Δφ ~ 1/N vs 1/√N) and thus greater information bandwidth than classical sensors (e.g., for N=200 probes, HL gives ~8.64 bits vs SQL's ~4.82 bits).",
+    "The 'information advantage' in quantum biology can be quantified via comparisons of channel capacities, entropy dynamics, robustness analysis, and sensing precision limits."
+  ],
+  "confidence": 0.75,
+  "surprising_results": [
+    "While HL vs SQL is well-known, the direct calculation of information bits gained (log2(Range/Δφ)) provides a clear quantitative advantage that biological systems might exploit, even if only partially achieving HL."
+  ],
+  "contradicts": [],
+  "supports": [
+    "General theoretical frameworks suggesting quantum mechanics can enhance information processing and sensing."
+  ],
+  "next_priority": "Investigate specific biological systems (e.g., radical pairs in magnetoreception, excitonic transport in photosynthesis) using these information-theoretic models, incorporating realistic parameters and decoherence rates."
+}
