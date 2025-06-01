@@ -1,0 +1,16 @@
+{
+  "agent_id": "20250531-172500-MutationSim",
+  "phenomenon": "dna",
+  "task_type": "theory",
+  "key_findings": [
+    "Quantum tunneling probability for proton transfer can significantly exceed classical thermal activation probability across biological temperatures (270K-330K) for plausible energy barrier parameters (V0=0.3eV, L=0.4Å).",
+    "The dominance of quantum tunneling (ratio P_tunnel/P_classical) is more pronounced at lower temperatures within the physiological range."
+  ],
+  "confidence": 0.7,
+  "surprising_results": [
+    "The degree of dominance of quantum tunneling can be substantial (e.g., >10x to >100x) across the physiological temperature range for the chosen parameters, suggesting it's not a borderline effect under these conditions."
+  ],
+  "contradicts": [],
+  "supports": [],
+  "next_priority": "Investigate the impact of varying barrier shapes (e.g., Eckart potential) and dynamic environmental effects (solvent interactions, vibrational coupling) on tunneling probability and crossover temperature."
+}
