@@ -1,0 +1,58 @@
+molecule_name,smell_category,bond_type,atom1_symbol,atom2_symbol,bond_strength_Nm
+Ethanol,Alcoholic,O-H,O,H,770
+Acetic Acid,Pungent,O-H,O,H,770
+Acetone,Fruity/Sweet,C=O,C,O,1200
+Benzaldehyde,Almond,C-H,C,H,450
+Limonene,Citrus,C-H,C,H,450
+Vanillin,Vanilla,O-H,O,H,760
+Vanillin,Vanilla,C-H arom,C,H,460
+Menthol,Minty,O-H,O,H,770
+Hexanal,Grassy/Fatty,C-H aliph,C,H,440
+Hexanal,Grassy/Fatty,C=O,C,O,1210
+Nonanal,Waxy/Citrus,C-H aliph,C,H,440
+Nonanal,Waxy/Citrus,C=O,C,O,1210
+Eugenol,Spicy/Clove,O-H,O,H,765
+Phenol,Medicinal,O-H,O,H,770
+Indole,Fecal/Floral,N-H,N,H,650
+Skatole,Fecal,N-H,N,H,650
+Geraniol,Floral/Rose,O-H,O,H,770
+Linalool,Floral/Sweet,O-H,O,H,770
+Alpha-Pinene,Pine/Woody,C-H,C,H,450
+Beta-Pinene,Pine/Woody,C-H,C,H,450
+Camphor,Camphoraceous,C=O,C,O,1205
+Isoamyl Acetate,Banana/Fruity,C=O,C,O,1200
+Ethyl Butyrate,Fruity/Pineapple,C=O,C,O,1200
+Butyric Acid,Rancid/Sweaty,O-H,O,H,770
+Allyl Mercaptan,Garlic,S-H,S,H,380
+Dimethyl Sulfide,Cooked Cabbage,C-S,C,S,300
+Methanethiol,Rotten Cabbage,S-H,S,H,380
+Pyridine,Fishy/Unpleasant,C-H arom,C,H,465
+Anisole,Anise/Sweet,C-O,C,O,500
+Benzene,Aromatic,C-H arom,C,H,465
+Toluene,Sweet/Solvent,C-H arom,C,H,465
+Toluene,Sweet/Solvent,C-H methyl,C,H,440
+Ethyl Acetate,Sweet/Solvent,C=O,C,O,1200
+Methyl Salicylate,Wintergreen/Minty,O-H,O,H,760
+Methyl Salicylate,Wintergreen/Minty,C=O,C,O,1190
+Cinnamaldehyde,Cinnamon/Spicy,C=O,C,O,1180
+Cinnamaldehyde,Cinnamon/Spicy,C-H aldehyde,C,H,430
+Coumarin,Sweet/Hay,C=O,C,O,1195
+Octanal,Fatty/Citrus,C=O,C,O,1210
+Decanal,Soapy/Orange,C=O,C,O,1210
+Undecanal,Waxy/Floral,C=O,C,O,1210
+Dodecanal,Soapy/Floral,C=O,C,O,1210
+Acetophenone,Sweet/Floral,C=O,C,O,1190
+Propanol,Alcoholic,O-H,O,H,770
+Butanol,Alcoholic,O-H,O,H,770
+Pentanol,Fruity/Balsamic,O-H,O,H,770
+Hexanol,Herbal/Woody,O-H,O,H,770
+Heptanol,Oily/Fruity,O-H,O,H,770
+Octanol,Waxy/Citrus,O-H,O,H,770
+Nonanol,Floral/Waxy,O-H,O,H,770
+Decanol,Soapy/Floral,O-H,O,H,770
+Formic Acid,Pungent,O-H,O,H,775
+Valeric Acid,Sweaty/Rancid,O-H,O,H,770
+Caproic Acid,Goaty/Fatty,O-H,O,H,770
+Caprylic Acid,Waxy/Soapy,O-H,O,H,770
+Pelargonic Acid,Waxy/Fruity,O-H,O,H,770
+Capric Acid,Waxy/Rancid,O-H,O,H,770
