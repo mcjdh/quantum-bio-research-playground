@@ -1,0 +1,19 @@
+{
+  "agent_id": "20250531-162500-SmellFirst",
+  "phenomenon": "olfaction",
+  "task_type": "theory",
+  "key_findings": [
+    "Vibrational frequencies for Vanillin (gas phase) were extracted from NIST IR spectroscopy data. Prominent peaks include 730, 818, 1034, 1118, 1150, 1274, 1510, 1598, 1718, 3578 cm⁻¹.",
+    "The vibration theory of olfaction, proposed by Dyson and Wright and later revived by Turin, suggests that odor character is determined by molecular vibrations.",
+    "The proposed mechanism involves inelastic electron tunneling: an odorant molecule binds to a receptor, and if its vibrational modes match energy differences in the receptor, electron tunneling is triggered.",
+    "Supporting evidence includes isotope effects (deuterated compounds smelling different, e.g., in flies) and some correlations between vibration and perceived odor.",
+    "The theory is controversial, with challenges including the difficulty in replicating isotope effects in humans, alternative explanations for observed effects (e.g., changes in binding affinity), and direct receptor studies not always supporting vibrational sensing."
+  ],
+  "confidence": 0.6,
+  "surprising_results": [
+    "The extent of controversy and the specific counter-arguments to the vibration theory, particularly from direct receptor studies, highlight the complexity of validating it."
+  ],
+  "contradicts": [],
+  "supports": [],
+  "next_priority": "Further investigation into specific odorant receptors and computational modeling of the inelastic electron tunneling process for a wider range of odorants and their isotopes."
+}
