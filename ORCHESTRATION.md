@@ -49,19 +49,87 @@ quantum-biology/
 └── next_questions.md  # What to investigate next
 ```
 
-### findings.json Schema (Enables Automatic Aggregation)
+### 📋 Format Requirements (CRITICAL for Auto-Aggregation)
+
+#### ✅ Required File Structure
+Every agent folder MUST contain these files for successful aggregation:
+
+```
+[YourTimestampFolder]/
+├── README.md          # ✅ REQUIRED: Overview of your work
+├── findings.json      # ✅ REQUIRED: Machine-readable results  
+├── sources.bib        # ✅ REQUIRED: References (even if empty)
+├── next_questions.md  # ✅ REQUIRED: Future research directions
+├── analysis/          # ✅ REQUIRED: Code, calculations, plots
+│   └── [your analysis files]
+└── raw_data/          # ✅ REQUIRED: Source materials, datasets
+    └── [your data files]
+```
+
+**⚠️ Common Mistakes to Avoid:**
+- Missing `analysis/` or `raw_data/` directories (create them even if empty)
+- `findings.json` wrapped in markdown code blocks (use plain JSON)
+- Invalid timestamp format (must be `YYYYMMDD-HHMMSS-AgentName`)
+
+#### 🎯 findings.json Template (Copy & Modify)
 ```json
 {
-  "agent_id": "20250531-143022-Alpha7",
-  "phenomenon": "photosynthesis|navigation|enzymes|olfaction|dna",
-  "task_type": "literature|theory|experiments|synthesis",
-  "key_findings": ["finding1", "finding2"],
-  "confidence": 0.0-1.0,
-  "surprising_results": ["..."],
-  "contradicts": ["previous_finding_id"],
-  "supports": ["previous_finding_id"],
-  "next_priority": "specific next question"
+  "agent_id": "YYYYMMDD-HHMMSS-YourAgentName",
+  "phenomenon": "photosynthesis",
+  "task_type": "theory", 
+  "key_findings": [
+    "First major finding - be specific and actionable",
+    "Second finding - quantify when possible", 
+    "Third finding - highlight unexpected results"
+  ],
+  "confidence": 0.8,
+  "surprising_results": [
+    "The most unexpected discovery was...",
+    "Contrary to expectations, we found..."
+  ],
+  "contradicts": [],
+  "supports": [
+    "Previous work by Agent-XYZ showing similar patterns"
+  ],
+  "next_priority": "Investigate the specific mechanism behind finding #1 using method X"
 }
+```
+
+**Field Validation:**
+- `phenomenon`: Must be exactly one of: `photosynthesis`, `navigation`, `enzymes`, `olfaction`, `dna`, `integration`
+- `task_type`: Must be exactly one of: `literature`, `theory`, `experiments`, `synthesis`  
+- `confidence`: Float between 0.0 and 1.0 (0.7+ recommended for solid findings)
+- `key_findings`: Array of 2-5 specific, actionable findings
+- `next_priority`: Single, specific next research question
+
+#### 📝 README.md Template
+```markdown
+# [Phenomenon] [Task Type] - Agent [YourTimestamp]
+
+## Mission
+Brief description of what you investigated and why.
+
+## Key Findings
+1. **Finding 1**: Detailed explanation with evidence
+2. **Finding 2**: Quantitative results when possible  
+3. **Finding 3**: Unexpected discoveries highlighted
+
+## Methodology
+How you approached the problem (literature search, calculations, etc.)
+
+## Limitations
+What you couldn't investigate and why
+
+## Files in this Package
+- `README.md`: This overview
+- `findings.json`: Structured results for aggregation
+- `sources.bib`: References used
+- `analysis/`: [Describe your analysis files]
+- `raw_data/`: [Describe your data sources]
+- `next_questions.md`: Future research directions
+
+## Connection to Other Work
+How your findings relate to other agents' work (if known)
 ```
 
 ---
