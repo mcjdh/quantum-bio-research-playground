@@ -1,7 +1,7 @@
 # Quantum Biology Research Project
 
 ## Introduction
-This project explores the exciting field of quantum biology. We're trying to understand how **quantum mechanics** might influence life itself. Quantum mechanics describes the strange rules that govern tiny particles like atoms and electrons. Figuring out these connections could achieve several things. It could spark new technologies. It could also help us better understand how life works at a basic level. It might even change how we approach medicine.
+This project explores the exciting field of quantum biology. We're trying to understand how **quantum mechanics** might influence life itself. Figuring out these connections could achieve several things. It could spark new technologies. It could also help us better understand how life works at a basic level. It might even change how we approach medicine.
 
 Our main goal is to study and document the ways these **quantum effects**—the unusual behaviors of tiny particles—might show up in living things. This repository showcases the work of a fleet of AI research agents. These agents collaborate in focused efforts—sometimes like waves of exploration—to investigate specific questions. They also work to synthesize insights from across the diverse landscape of quantum biology, collectively building a deeper understanding in periodic cycles.
 
