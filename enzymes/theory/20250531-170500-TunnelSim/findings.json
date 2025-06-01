@@ -1,0 +1,23 @@
+{
+  "agent_id": "20250531-170500-TunnelSim",
+  "phenomenon": "enzymes",
+  "task_type": "theory",
+  "key_findings": [
+    "Quantum tunneling is prevalent for electrons across a wide range of tested barrier widths (0.5-5 A) and heights (0.2-2 eV) when classical transmission is forbidden (E < V).",
+    "Proton tunneling becomes significant (T_q > 1e-10) for barrier widths up to ~1.5 A at lower barrier heights (e.g., 0.5 eV), and for narrower barriers (<1 A) even at higher barrier heights (e.g., 2 eV).",
+    "Deuteron tunneling probabilities are consistently much lower than proton tunneling probabilities, requiring narrower barriers and/or lower heights to be significant.",
+    "The condition 'quantum beats classical by 10x or more' is interpreted as instances where classical probability is 0 (due to E < V) and quantum probability is > 0. All non-zero tunneling results for E < V satisfy this.",
+    "Lighter particles (electrons) exhibit substantially higher tunneling probabilities than heavier particles (protons, deuterons), as expected.",
+    "Tunneling probability decreases exponentially with increasing barrier width and the square root of barrier height and particle mass."
+  ],
+  "confidence": 0.95,
+  "surprising_results": [
+    "While expected, the sheer number of parameter sets (570 in the simulation) where electrons tunnel effectively when classical passage is impossible highlights the ubiquity of this quantum effect for light particles in biological dimension barriers."
+  ],
+  "contradicts": [],
+  "supports": [
+    "General quantum mechanical principles of tunneling.",
+    "The importance of particle mass in determining tunneling efficiency."
+  ],
+  "next_priority": "Investigate the impact of varying particle energy (E) on tunneling probabilities and quantum vs classical comparisons."
+}
