@@ -1,0 +1,5 @@
+# Abandoned Theories Analysis
+
+The work detailed in `dna/20250531-172500-MutationSim/` does not lead to an abandonment of the theory of quantum tunneling in DNA mutations. On the contrary, the simulation results support the plausibility of this theory by finding that tunneling probabilities can be significant, and potentially dominant, compared to classical activation pathways for proton transfer in DNA base pairs.
+
+However, the study does highlight areas where the *model* used to represent the theory requires refinement and further investigation. The simplifications made in the simulation (e.g., 1D potential, neglect of environment) mean that while the core concept of tunneling is supported, the specific quantitative predictions and the direct applicability to in vivo mutation rates are subject to the limitations of this model. Therefore, the findings point towards the need for more sophisticated models rather than an abandonment of the underlying quantum tunneling theory itself. Future research should focus on developing these more comprehensive models to better understand the role of quantum mechanics in DNA mutagenesis.

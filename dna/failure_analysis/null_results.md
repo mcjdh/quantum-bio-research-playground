@@ -1,0 +1,5 @@
+# Null Results Analysis
+
+Based on the simulation presented in `dna/20250531-172500-MutationSim/`, this specific study did not report null results concerning its primary objective, which was to compare the probabilities of proton tunneling versus classical over-the-barrier activation for tautomeric mutation in DNA base pairs. The simulation's findings suggest that quantum tunneling could indeed be a dominant mechanism under certain conditions.
+
+It is important to note, however, that the absence of null results in this particular simulation does not preclude the possibility of null results in broader experimental searches for quantum effects in DNA mutations. The specific conditions, model simplifications, and parameters of this simulation might not fully capture the complexity of biological systems, and experimental verification remains crucial. Other investigations or different experimental setups might yield null results, meaning no significant quantum tunneling effect is observed or that its contribution to mutation rates is negligible compared to other factors.
