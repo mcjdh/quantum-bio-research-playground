@@ -1,0 +1,17 @@
+Topology,Coupling,DephasingRate,TrapRate,Efficiency,Message,Status
+linear_chain,50.0,0.05,1.0,0.5566320397847353,The solver successfully reached the end of the integration interval.,0
+linear_chain,50.0,0.2,1.0,0.6858915804662387,The solver successfully reached the end of the integration interval.,0
+linear_chain,100.0,0.05,1.0,0.9172769190767669,The solver successfully reached the end of the integration interval.,0
+linear_chain,100.0,0.2,1.0,0.9760078371381455,The solver successfully reached the end of the integration interval.,0
+ring,50.0,0.05,1.0,0.6114301079959514,The solver successfully reached the end of the integration interval.,0
+ring,50.0,0.2,1.0,0.7571925403584292,The solver successfully reached the end of the integration interval.,0
+ring,100.0,0.05,1.0,0.752832602860746,The solver successfully reached the end of the integration interval.,0
+ring,100.0,0.2,1.0,0.9275186204231327,The solver successfully reached the end of the integration interval.,0
+star_center_0,50.0,0.05,1.0,0.7376434207496603,The solver successfully reached the end of the integration interval.,0
+star_center_0,50.0,0.2,1.0,0.774724348208549,The solver successfully reached the end of the integration interval.,0
+star_center_0,100.0,0.05,1.0,0.8586411220887977,The solver successfully reached the end of the integration interval.,0
+star_center_0,100.0,0.2,1.0,0.8977223065751945,The solver successfully reached the end of the integration interval.,0
+star_center_mid,50.0,0.05,1.0,0.4235834401360382,The solver successfully reached the end of the integration interval.,0
+star_center_mid,50.0,0.2,1.0,0.6939841698308311,The solver successfully reached the end of the integration interval.,0
+star_center_mid,100.0,0.05,1.0,0.446489650525294,The solver successfully reached the end of the integration interval.,0
+star_center_mid,100.0,0.2,1.0,0.7476045464245693,The solver successfully reached the end of the integration interval.,0
